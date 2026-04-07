@@ -1,20 +1,17 @@
-# 3D Portfolio Website
+# Om Raj – 3D Portfolio
 
-A modern interactive developer/designer portfolio built with React, React Three Fiber, Tailwind CSS, GSAP, and Framer Motion.
+Modern 3D portfolio for Om Raj (Computer Science Engineering student), built with React + Vite, React Three Fiber + Drei, Tailwind CSS, Framer Motion, and GSAP.
 
 ## Features
 
-- Fullscreen 3D hero with particles, stars, dynamic lighting, and floating intro text
-- Interactive 3D projects gallery (hover rotate + click details)
-- About section with animated skill bars
-- Orbit-style skills constellation
-- Animated vertical experience timeline
-- Contact section with clean glassmorphism form UI
-- Sticky navbar with active-section highlighting and smooth anchor scrolling
-- Mouse parallax and GSAP-powered interactions
-- Bonus: music toggle + loading state + dark/light mode toggle shell
+- Animated 3D hero with floating shapes + particle field
+- Glassmorphism dark UI and responsive layout
+- Smooth scroll navigation with active section highlighting
+- Animated sections for skills, projects, education, leadership, certifications, and contact
+- Contact form with client-side validation
+- SEO-friendly meta tags in `index.html`
 
-## Structure
+## Folder Structure
 
 - `src/components/`
 - `src/sections/`
@@ -22,7 +19,7 @@ A modern interactive developer/designer portfolio built with React, React Three 
 - `src/hooks/`
 - `src/utils/`
 
-## Run locally
+## Run
 
 ```bash
 npm install
