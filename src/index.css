@@ -27,3 +27,8 @@ body,
 .glass-panel {
   @apply border border-white/10 bg-white/5 backdrop-blur-xl;
 }
+
+.hero-name {
+  letter-spacing: 0.24em;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.35);
+}

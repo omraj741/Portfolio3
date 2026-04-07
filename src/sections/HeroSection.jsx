@@ -21,7 +21,7 @@ const HeroSection = () => (
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       >
-        <p className="text-xs uppercase tracking-[0.35em] text-neon-blue">Om Raj</p>
+        <p className="hero-name text-3xl font-black uppercase text-white md:text-5xl">Om Raj</p>
         <h1 className="mt-4 text-3xl font-bold text-white md:text-5xl">DevOps &amp; Software Engineering Student</h1>
         <p className="mt-4 text-base text-slate-300 md:text-lg">Building scalable solutions and solving real-world problems</p>
       </motion.div>
