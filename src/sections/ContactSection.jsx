@@ -76,7 +76,14 @@ const ContactSection = () => {
           <p className="text-lg text-white">rajom741@gmail.com</p>
           <div className="flex flex-wrap gap-3">
             {contactLinks.map((link) => (
-              <a key={link.label} href={link.href} className="rounded-full border border-white/20 px-4 py-2 text-sm hover:border-neon-blue/70 hover:text-neon-blue">
+              <a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noreferrer"
+                className="group rounded-full border border-white/20 px-4 py-2 text-sm transition duration-300 hover:-translate-y-1 hover:border-neon-blue/70 hover:text-neon-blue hover:shadow-glow"
+              >
+                <span className="mr-2 transition group-hover:scale-110">{link.icon}</span>
                 {link.label}
               </a>
             ))}

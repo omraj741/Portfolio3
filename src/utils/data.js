@@ -97,7 +97,7 @@ export const leadership = {
 export const certifications = ['Full Stack Development – Wipro Talent Next', 'Software Programmer – PMKVY'];
 
 export const contactLinks = [
-  { label: 'GitHub', href: 'https://github.com/om-raj' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/om-raj' },
-  { label: 'LeetCode', href: 'https://leetcode.com/om-raj' },
+  { label: 'GitHub', href: 'https://github.com/omraj741', icon: '🐙' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/om-raj-01b63b227/', icon: '💼' },
+  { label: 'LeetCode', href: 'https://leetcode.com/om-raj', icon: '🧠' },
 ];

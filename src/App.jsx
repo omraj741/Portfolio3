@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import Navbar from './components/Navbar';
@@ -10,7 +9,6 @@ import ExperienceSection from './sections/ExperienceSection';
 import EducationSection from './sections/EducationSection';
 import LeadershipSection from './sections/LeadershipSection';
 import CertificationsSection from './sections/CertificationsSection';
-
 import ContactSection from './sections/ContactSection';
 import { useActiveSection } from './hooks/useActiveSection';
 
