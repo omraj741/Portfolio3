@@ -1,68 +1,103 @@
 export const navItems = [
   { id: 'hero', label: 'Home' },
-  { id: 'projects', label: 'Projects' },
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
+  { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
+  { id: 'education', label: 'Education' },
+  { id: 'leadership', label: 'Leadership' },
+  { id: 'certifications', label: 'Certifications' },
   { id: 'contact', label: 'Contact' },
+];
+
+export const aboutSummary =
+  'I am Om Raj, a Computer Science Engineering student focused on building reliable software and scalable delivery pipelines. My toolkit spans C, Python, Java, MERN development, CI/CD automation, and data analysis for practical decision-making.';
+
+export const categorizedSkills = [
+  {
+    category: 'Programming',
+    items: [
+      { name: 'C', level: 85 },
+      { name: 'Python', level: 90 },
+      { name: 'Java', level: 82 },
+    ],
+  },
+  {
+    category: 'Technologies',
+    items: [
+      { name: 'MERN', level: 88 },
+      { name: 'MySQL', level: 84 },
+      { name: 'MongoDB', level: 86 },
+      { name: 'Git', level: 89 },
+    ],
+  },
+  {
+    category: 'Concepts',
+    items: [
+      { name: 'DSA', level: 83 },
+      { name: 'OS', level: 80 },
+      { name: 'DBMS', level: 86 },
+      { name: 'CN', level: 78 },
+      { name: 'CI/CD', level: 88 },
+    ],
+  },
 ];
 
 export const projects = [
   {
-    title: 'Nebula Commerce',
-    description: 'Immersive 3D storefront with WebGL-driven product storytelling.',
-    tech: ['React', 'Three.js', 'Node'],
-    github: 'https://github.com/example/nebula-commerce',
-    demo: 'https://example.com/nebula-commerce',
-    color: '#22d3ee',
-    shape: 'box',
+    title: 'Student Course Management System',
+    description:
+      'Managed 500+ records with robust CRUD flows and optimized queries that improved data retrieval speed by 30%.',
+    tech: ['React', 'Node.js', 'Express', 'MySQL'],
+    github: 'https://github.com/om-raj/student-course-management',
   },
   {
-    title: 'Orbit Studio',
-    description: 'Collaborative design board with real-time motion playground.',
-    tech: ['React', 'WebRTC', 'GSAP'],
-    github: 'https://github.com/example/orbit-studio',
-    demo: 'https://example.com/orbit-studio',
-    color: '#a78bfa',
-    shape: 'sphere',
+    title: 'Internship Management System',
+    description:
+      'Designed role-based workflows for Admin, Mentor, and Student users and automated key hand-offs to reduce manual work by 40%.',
+    tech: ['MERN', 'JWT Auth', 'REST API'],
+    github: 'https://github.com/om-raj/internship-management-system',
   },
   {
-    title: 'Aether Dashboard',
-    description: 'Data visual command center with shader-based transitions.',
-    tech: ['Vite', 'R3F', 'Tailwind'],
-    github: 'https://github.com/example/aether-dashboard',
-    demo: 'https://example.com/aether-dashboard',
-    color: '#f472b6',
-    shape: 'torus',
+    title: 'BDD Testing Project',
+    description:
+      'Automated website scenarios with behavior-driven tests, increasing test coverage by 35% and reducing testing time by 25%.',
+    tech: ['Java', 'Selenium', 'Cucumber', 'TestNG'],
+    github: 'https://github.com/om-raj/bdd-testing-project',
   },
 ];
 
-export const skills = [
-  { name: 'React', level: 92, color: '#61dafb' },
-  { name: 'Three.js', level: 86, color: '#22d3ee' },
-  { name: 'Node', level: 84, color: '#6ee7b7' },
-  { name: 'AWS', level: 73, color: '#f59e0b' },
-  { name: 'Figma', level: 81, color: '#a78bfa' },
-  { name: 'GSAP', level: 88, color: '#f472b6' },
+export const experience = {
+  role: 'Virtual Internship – British Airways',
+  points: [
+    'Performed data analysis using Python for practical business scenarios.',
+    'Executed data cleaning and visualization workflows to improve data quality.',
+    'Extracted and presented insights from datasets to support decision-making.',
+  ],
+};
+
+export const education = [
+  {
+    program: 'B.Tech CSE',
+    school: 'KL University',
+    score: 'CGPA: 8.9',
+  },
+  {
+    program: 'Diploma CSE',
+    school: 'Galgotias University',
+    score: 'CGPA: 8.4',
+  },
 ];
 
-export const experiences = [
-  {
-    role: 'Senior Creative Developer',
-    company: 'Neon Labs',
-    date: '2024 - Present',
-    summary: 'Built interactive 3D campaigns and optimized WebGL pipelines for global launches.',
-  },
-  {
-    role: 'Frontend Engineer',
-    company: 'Pixel Forge',
-    date: '2021 - 2024',
-    summary: 'Delivered high-conversion marketing experiences with motion systems and reusable UI kits.',
-  },
-  {
-    role: 'Designer / Developer',
-    company: 'Freelance',
-    date: '2018 - 2021',
-    summary: 'Bridged visual design and engineering for startups across fintech, SaaS, and gaming.',
-  },
+export const leadership = {
+  title: 'Social Media Team Lead – Startup Society',
+  points: ['Managed content strategy and team coordination.', 'Improved audience engagement through consistent campaigns.'],
+};
+
+export const certifications = ['Full Stack Development – Wipro Talent Next', 'Software Programmer – PMKVY'];
+
+export const contactLinks = [
+  { label: 'GitHub', href: 'https://github.com/om-raj' },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/om-raj' },
+  { label: 'LeetCode', href: 'https://leetcode.com/om-raj' },
 ];
