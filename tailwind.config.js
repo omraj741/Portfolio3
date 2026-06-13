@@ -12,6 +12,7 @@ export default {
       },
       boxShadow: {
         glow: '0 0 30px rgba(34, 211, 238, 0.35)',
+        cinematic: '0 24px 80px rgba(0, 0, 0, 0.55), 0 0 45px rgba(0, 229, 255, 0.12)',
       },
       backgroundImage: {
         glass:

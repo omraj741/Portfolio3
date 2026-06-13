@@ -1,12 +1,8 @@
 export const navItems = [
-  { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
-  { id: 'education', label: 'Education' },
-  { id: 'leadership', label: 'Leadership' },
-  { id: 'certifications', label: 'Certifications' },
+  { id: 'skills', label: 'Skills' },
   { id: 'contact', label: 'Contact' },
 ];
 
@@ -49,21 +45,24 @@ export const projects = [
     description:
       'Managed 500+ records with robust CRUD flows and optimized queries that improved data retrieval speed by 30%.',
     tech: ['React', 'Node.js', 'Express', 'MySQL'],
-    github: 'https://github.com/om-raj/student-course-management',
+    github: 'https://github.com/omraj741',
+    demo: 'https://github.com/omraj741',
   },
   {
     title: 'Internship Management System',
     description:
       'Designed role-based workflows for Admin, Mentor, and Student users and automated key hand-offs to reduce manual work by 40%.',
     tech: ['MERN', 'JWT Auth', 'REST API'],
-    github: 'https://github.com/om-raj/internship-management-system',
+    github: 'https://github.com/omraj741',
+    demo: 'https://github.com/omraj741',
   },
   {
     title: 'BDD Testing Project',
     description:
       'Automated website scenarios with behavior-driven tests, increasing test coverage by 35% and reducing testing time by 25%.',
     tech: ['Java', 'Selenium', 'Cucumber', 'TestNG'],
-    github: 'https://github.com/om-raj/bdd-testing-project',
+    github: 'https://github.com/omraj741',
+    demo: 'https://github.com/omraj741',
   },
 ];
 
