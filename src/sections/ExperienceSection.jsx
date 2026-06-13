@@ -12,9 +12,9 @@ const ExperienceSection = () => (
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
     >
-      <div className="absolute left-8 top-10 hidden h-[calc(100%-5rem)] w-px bg-gradient-to-b from-cyan-300 via-white/20 to-transparent md:block" />
+      <div className="absolute left-8 top-10 hidden h-[calc(100%-5rem)] w-px bg-gradient-to-b from-lime-300 via-white/20 to-transparent md:block" />
       <div className="md:pl-14">
-        <span className="mb-4 inline-flex rounded-full border border-cyan-300/40 bg-cyan-300/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-cyan-100">Virtual Internship</span>
+        <span className="mb-4 inline-flex rounded-full border border-lime-300/40 bg-lime-300/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.25em] text-lime-100">Virtual Internship</span>
         <h3 className="text-3xl font-black uppercase tracking-tight text-white">{experience.role}</h3>
         <ul className="mt-6 grid gap-4 text-zinc-300">
           {experience.points.map((point) => (
