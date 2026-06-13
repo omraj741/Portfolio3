@@ -6,7 +6,10 @@ import AboutSection from './sections/AboutSection';
 import SkillsSection from './sections/SkillsSection';
 import ProjectsSection from './sections/ProjectsSection';
 import ExperienceSection from './sections/ExperienceSection';
+import EducationSection from './sections/EducationSection';
 import CertificationsSection from './sections/CertificationsSection';
+import AchievementsSection from './sections/AchievementsSection';
+import LeadershipSection from './sections/LeadershipSection';
 import ContactSection from './sections/ContactSection';
 import { useActiveSection } from './hooks/useActiveSection';
 
@@ -33,15 +36,18 @@ const App = () => {
 
   return (
     <>
-      <div ref={glowRef} className="pointer-events-none fixed left-0 top-0 z-0 h-[360px] w-[360px] rounded-full bg-cyan-300/10 blur-3xl" />
+      <div ref={glowRef} className="pointer-events-none fixed left-0 top-0 z-0 h-[360px] w-[360px] rounded-full bg-lime-300/10 blur-3xl" />
       <Navbar active={activeSection} />
       <main className="relative z-10 text-white">
         <HeroSection />
         <AboutSection />
         <SkillsSection />
         <ExperienceSection />
+        <EducationSection />
         <ProjectsSection />
         <CertificationsSection />
+        <AchievementsSection />
+        <LeadershipSection />
         <ContactSection />
       </main>
     </>
