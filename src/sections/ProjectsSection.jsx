@@ -37,7 +37,11 @@ const ProjectsSection = () => (
                 <div className="rounded-[1.35rem] bg-[var(--paper)] p-6 text-black shadow-2xl">
                   <p className="text-xs font-black uppercase tracking-[0.3em] text-black/45">Case Study</p>
                   <h4 className="mt-5 text-3xl font-black leading-none tracking-tight">{project.title}</h4>
+                  <p className="mt-3 text-xs font-black uppercase tracking-[0.22em] text-black/55">{project.role} · {project.duration}</p>
                   <p className="mt-4 text-sm leading-6 text-black/65">{project.description}</p>
+                  <ul className="mt-4 space-y-1 text-xs leading-5 text-black/65">
+                    {project.achievements.slice(0, 3).map((achievement) => <li key={achievement}>• {achievement}</li>)}
+                  </ul>
                 </div>
                 <div className="rounded-[1.35rem] bg-black/75 p-6 text-white shadow-2xl">
                   <p className="text-xs font-black uppercase tracking-[0.3em] text-lime-200">Stack</p>

@@ -6,7 +6,10 @@ import AboutSection from './sections/AboutSection';
 import SkillsSection from './sections/SkillsSection';
 import ProjectsSection from './sections/ProjectsSection';
 import ExperienceSection from './sections/ExperienceSection';
+import EducationSection from './sections/EducationSection';
 import CertificationsSection from './sections/CertificationsSection';
+import AchievementsSection from './sections/AchievementsSection';
+import LeadershipSection from './sections/LeadershipSection';
 import ContactSection from './sections/ContactSection';
 import { useActiveSection } from './hooks/useActiveSection';
 
@@ -40,8 +43,11 @@ const App = () => {
         <AboutSection />
         <SkillsSection />
         <ExperienceSection />
+        <EducationSection />
         <ProjectsSection />
         <CertificationsSection />
+        <AchievementsSection />
+        <LeadershipSection />
         <ContactSection />
       </main>
     </>

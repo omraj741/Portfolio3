@@ -18,6 +18,7 @@ const EducationSection = () => (
         >
           <h3 className="text-lg font-semibold text-white">{item.program}</h3>
           <p className="mt-1 text-slate-300">{item.school}</p>
+          <p className="mt-2 text-sm text-slate-400">{item.duration}</p>
           <p className="mt-2 text-sm text-lime-300">{item.score}</p>
         </motion.article>
       ))}

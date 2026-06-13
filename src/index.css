@@ -99,7 +99,7 @@ body::after {
 .hero-display {
   display: block;
   font-family: Impact, 'Arial Narrow', 'League Spartan', 'Bebas Neue', 'Anton', sans-serif;
-  font-size: clamp(4.3rem, 16vw, 12.8rem);
+  font-size: clamp(3.2rem, 13vw, 11rem);
   font-weight: 900;
   letter-spacing: -0.065em;
   line-height: 0.82;

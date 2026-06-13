@@ -13,7 +13,11 @@ const AboutSection = () => (
       viewport={{ once: true }}
     >
       <div className="absolute right-0 top-0 h-44 w-44 rounded-full bg-lime-300/10 blur-3xl" />
-      <p className="relative max-w-4xl text-lg leading-9 text-zinc-300">{aboutSummary}</p>
+      <div className="relative max-w-4xl space-y-5 text-lg leading-9 text-zinc-300">
+        {aboutSummary.map((paragraph) => (
+          <p key={paragraph}>{paragraph}</p>
+        ))}
+      </div>
       <div className="relative mt-8 grid gap-4 md:grid-cols-3">
         {['Scalable Apps', 'Cloud Workflows', 'Data-Driven Insights'].map((item) => (
           <div key={item} className="rounded-2xl border border-white/10 bg-black/30 p-4 text-sm font-bold uppercase tracking-[0.18em] text-white">

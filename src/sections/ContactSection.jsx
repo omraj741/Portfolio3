@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import SectionTitle from '../components/SectionTitle';
-import { contactLinks } from '../utils/data';
+import { contact, contactLinks } from '../utils/data';
 
 const initialForm = { name: '', email: '', message: '' };
 
@@ -29,7 +29,7 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="section-shell pb-32">
-      <SectionTitle eyebrow="Connect" title="Contact" subtitle="Open to internships, software roles, and collaborative projects." />
+      <SectionTitle eyebrow="Connect" title="Contact" subtitle="Open to DevOps, full-stack, cloud, and software testing opportunities." />
 
       <motion.div
         className="glass-panel grid gap-8 rounded-[2rem] p-6 md:grid-cols-[1.1fr_0.9fr] md:p-8"
@@ -74,8 +74,11 @@ const ContactSection = () => {
 
         <div className="flex flex-col justify-between rounded-[1.5rem] border border-white/10 bg-black/30 p-6 text-zinc-300">
           <div>
-            <p className="text-xs uppercase tracking-[0.35em] text-lime-200">Email</p>
-            <p className="mt-3 text-2xl font-black text-white">rajom741@gmail.com</p>
+            <p className="text-xs uppercase tracking-[0.35em] text-lime-200">Contact</p>
+            <p className="mt-3 text-2xl font-black text-white">{contact.name}</p>
+            <p className="mt-3 text-lg font-bold text-white">{contact.email}</p>
+            <p className="mt-2 text-sm text-zinc-300">{contact.phone}</p>
+            <p className="mt-2 text-sm text-zinc-300">{contact.location}</p>
           </div>
           <div className="mt-8 flex flex-wrap gap-3">
             {contactLinks.map((link) => (
