@@ -158,3 +158,15 @@ body::after {
   border: 1.5px solid rgba(255, 255, 230, 0.72);
   box-shadow: 0 0 18px rgba(255, 255, 220, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
+
+#about,
+#experience,
+#certifications {
+  color: #000000;
+}
+
+#about *,
+#experience *,
+#certifications * {
+  color: #000000 !important;
+}
