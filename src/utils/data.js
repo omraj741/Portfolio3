@@ -7,7 +7,7 @@ export const navItems = [
 ];
 
 export const aboutSummary =
-  'I am Om Raj, a Computer Science Engineering student focused on building reliable software and scalable delivery pipelines. My toolkit spans C, Python, Java, MERN development, CI/CD automation, and data analysis for practical decision-making.';
+  'I am Om Raj, a Computer Science Engineering student with hands-on experience in full-stack development, data analysis, automation, and scalable delivery workflows. My technical foundation includes C, Python, Java, MERN development, MySQL, MongoDB, Git, CI/CD, data structures, operating systems, DBMS, and computer networks. I have completed practical internships and certifications focused on analytics, software programming, and full-stack engineering, and I build reliable, user-focused products with clean implementation and measurable impact.';
 
 export const categorizedSkills = [
   {
@@ -67,7 +67,8 @@ export const projects = [
 ];
 
 export const experience = {
-  role: 'Virtual Internship – British Airways',
+  role: 'Data Analyst Virtual Intern – British Airways',
+  duration: 'Virtual Internship',
   points: [
     'Performed data analysis using Python for practical business scenarios.',
     'Executed data cleaning and visualization workflows to improve data quality.',
