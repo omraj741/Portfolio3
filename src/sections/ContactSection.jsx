@@ -40,41 +40,41 @@ const ContactSection = () => {
         <form className="space-y-4" noValidate onSubmit={handleSubmit}>
           <div>
             <input
-              className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 text-white outline-none transition placeholder:text-zinc-600 focus:border-cyan-300/60 focus:shadow-glow"
+              className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 text-white outline-none transition placeholder:text-zinc-600 focus:border-lime-300/60 focus:shadow-glow"
               placeholder="Name"
               value={form.name}
               onChange={(event) => setForm((prev) => ({ ...prev, name: event.target.value }))}
             />
-            {errors.name ? <p className="mt-2 text-xs text-cyan-100">{errors.name}</p> : null}
+            {errors.name ? <p className="mt-2 text-xs text-lime-100">{errors.name}</p> : null}
           </div>
           <div>
             <input
-              className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 text-white outline-none transition placeholder:text-zinc-600 focus:border-cyan-300/60 focus:shadow-glow"
+              className="w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 text-white outline-none transition placeholder:text-zinc-600 focus:border-lime-300/60 focus:shadow-glow"
               placeholder="Email"
               type="email"
               value={form.email}
               onChange={(event) => setForm((prev) => ({ ...prev, email: event.target.value }))}
             />
-            {errors.email ? <p className="mt-2 text-xs text-cyan-100">{errors.email}</p> : null}
+            {errors.email ? <p className="mt-2 text-xs text-lime-100">{errors.email}</p> : null}
           </div>
           <div>
             <textarea
-              className="h-36 w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 text-white outline-none transition placeholder:text-zinc-600 focus:border-cyan-300/60 focus:shadow-glow"
+              className="h-36 w-full rounded-2xl border border-white/10 bg-black/40 px-5 py-4 text-white outline-none transition placeholder:text-zinc-600 focus:border-lime-300/60 focus:shadow-glow"
               placeholder="Message"
               value={form.message}
               onChange={(event) => setForm((prev) => ({ ...prev, message: event.target.value }))}
             />
-            {errors.message ? <p className="mt-2 text-xs text-cyan-100">{errors.message}</p> : null}
+            {errors.message ? <p className="mt-2 text-xs text-lime-100">{errors.message}</p> : null}
           </div>
           <button className="premium-button" type="submit">
             Send Message
           </button>
-          {submitted ? <p className="text-sm text-cyan-100">Thanks! Your message is ready to be sent.</p> : null}
+          {submitted ? <p className="text-sm text-lime-100">Thanks! Your message is ready to be sent.</p> : null}
         </form>
 
         <div className="flex flex-col justify-between rounded-[1.5rem] border border-white/10 bg-black/30 p-6 text-zinc-300">
           <div>
-            <p className="text-xs uppercase tracking-[0.35em] text-cyan-200">Email</p>
+            <p className="text-xs uppercase tracking-[0.35em] text-lime-200">Email</p>
             <p className="mt-3 text-2xl font-black text-white">rajom741@gmail.com</p>
           </div>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -84,7 +84,7 @@ const ContactSection = () => {
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"
-                className="group rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm transition duration-300 hover:-translate-y-1 hover:border-cyan-300/70 hover:text-cyan-100 hover:shadow-glow"
+                className="group rounded-full border border-white/15 bg-white/[0.03] px-4 py-2 text-sm transition duration-300 hover:-translate-y-1 hover:border-lime-300/70 hover:text-lime-100 hover:shadow-glow"
               >
                 <span className="mr-2 transition group-hover:scale-110">{link.icon}</span>
                 {link.label}
