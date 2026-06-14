@@ -17,6 +17,7 @@ export const hero = {
   subtitle: 'B.Tech Computer Science Engineering Student | Full-Stack Developer | DevOps Enthusiast | AWS Cloud Learner',
   description:
     'Passionate Computer Science Engineering student with expertise in Java, Python, C, Data Structures & Algorithms, Full-Stack Development, AWS Cloud Technologies, and CI/CD practices. Experienced in building scalable web applications, automation solutions, and database-driven systems through internships and academic projects.',
+  image: '/images/om-raj-profile.svg',
 };
 
 export const aboutSummary = [
