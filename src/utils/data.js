@@ -1,101 +1,133 @@
 export const navItems = [
+  { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'projects', label: 'Projects' },
-  { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'education', label: 'Education' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'certifications', label: 'Certifications' },
+  { id: 'achievements', label: 'Achievements' },
+  { id: 'leadership', label: 'Leadership' },
   { id: 'contact', label: 'Contact' },
 ];
 
-export const aboutSummary =
-  'I am Om Raj, a Computer Science Engineering student focused on building reliable software and scalable delivery pipelines. My toolkit spans C, Python, Java, MERN development, CI/CD automation, and data analysis for practical decision-making.';
+export const hero = {
+  name: 'OM RAJ',
+  title: 'DevOps Engineering Student',
+  subtitle: 'B.Tech Computer Science Engineering Student | Full-Stack Developer | DevOps Enthusiast | AWS Cloud Learner',
+  description:
+    'Passionate Computer Science Engineering student with expertise in Java, Python, C, Data Structures & Algorithms, Full-Stack Development, AWS Cloud Technologies, and CI/CD practices. Experienced in building scalable web applications, automation solutions, and database-driven systems through internships and academic projects.',
+};
+
+export const aboutSummary = [
+  'I am a B.Tech Computer Science Engineering student with a strong interest in Full-Stack Development, DevOps Engineering, Cloud Computing, and Software Testing.',
+  'I have worked on multiple real-world projects involving React, Node.js, Java, Spring Boot, Selenium, MongoDB, and MySQL. Through internships and academic projects, I have gained experience in developing web applications, automating workflows, implementing testing frameworks, and managing deployment processes.',
+  'My goal is to build scalable software solutions while continuously improving my skills in cloud technologies, automation, and modern software development practices.',
+];
 
 export const categorizedSkills = [
-  {
-    category: 'Programming',
-    items: [
-      { name: 'C', level: 85 },
-      { name: 'Python', level: 90 },
-      { name: 'Java', level: 82 },
-    ],
-  },
-  {
-    category: 'Technologies',
-    items: [
-      { name: 'MERN', level: 88 },
-      { name: 'MySQL', level: 84 },
-      { name: 'MongoDB', level: 86 },
-      { name: 'Git', level: 89 },
-    ],
-  },
-  {
-    category: 'Concepts',
-    items: [
-      { name: 'DSA', level: 83 },
-      { name: 'OS', level: 80 },
-      { name: 'DBMS', level: 86 },
-      { name: 'CN', level: 78 },
-      { name: 'CI/CD', level: 88 },
-    ],
-  },
+  { category: 'Programming Languages', items: ['Java', 'Python', 'C'].map((name) => ({ name, level: 90 })) },
+  { category: 'Frontend Development', items: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'].map((name) => ({ name, level: 88 })) },
+  { category: 'Backend Development', items: ['Node.js', 'Spring Boot'].map((name) => ({ name, level: 84 })) },
+  { category: 'Databases', items: ['MySQL', 'MongoDB'].map((name) => ({ name, level: 86 })) },
+  { category: 'Testing & Automation', items: ['Selenium', 'Cucumber', 'BDD Testing'].map((name) => ({ name, level: 85 })) },
+  { category: 'DevOps & Cloud', items: ['AWS Cloud', 'CI/CD Concepts', 'Git', 'GitHub'].map((name) => ({ name, level: 84 })) },
+  { category: 'Core Computer Science', items: ['Data Structures', 'Algorithms', 'Full-Stack Development (MERN)'].map((name) => ({ name, level: 87 })) },
+  { category: 'Additional Skills', items: ['Data Analysis', 'Trend Analysis', 'Responsive Web Design'].map((name) => ({ name, level: 82 })) },
+  { category: 'Languages', items: ['English', 'Hindi'].map((name) => ({ name, level: 90 })) },
 ];
 
 export const projects = [
   {
-    title: 'Student Course Management System',
-    description:
-      'Managed 500+ records with robust CRUD flows and optimized queries that improved data retrieval speed by 30%.',
-    tech: ['React', 'Node.js', 'Express', 'MySQL'],
+    title: 'Behavior-Driven Testing of an Economic Website',
+    role: 'Tester',
+    duration: 'February 2025 – April 2025',
+    description: 'Automated and validated multiple application features including data search, currency conversion, and stock trend analysis.',
+    achievements: [
+      'Automated testing for 10+ application features.',
+      'Created 20+ reusable BDD test scenarios.',
+      'Improved collaboration between development and testing teams.',
+      'Increased test coverage by 35%.',
+      'Reduced regression testing time by 25%.',
+    ],
+    tech: ['Java', 'Selenium', 'Cucumber'],
     github: 'https://github.com/omraj741',
     demo: 'https://github.com/omraj741',
   },
   {
     title: 'Internship Management System',
-    description:
-      'Designed role-based workflows for Admin, Mentor, and Student users and automated key hand-offs to reduce manual work by 40%.',
-    tech: ['MERN', 'JWT Auth', 'REST API'],
+    role: 'Developer',
+    duration: 'August 2024 – December 2024',
+    description: 'Developed a web-based internship management platform supporting Admin, Mentor, and Student roles with centralized internship tracking.',
+    achievements: [
+      'Managed tracking of 100+ internship tasks and submissions.',
+      'Reduced manual tracking efforts by 40%.',
+      'Automated task assignment and progress monitoring.',
+      'Enabled performance evaluation workflows.',
+    ],
+    tech: ['Java', 'React', 'JavaScript', 'MySQL', 'Spring Boot'],
     github: 'https://github.com/omraj741',
     demo: 'https://github.com/omraj741',
   },
   {
-    title: 'BDD Testing Project',
-    description:
-      'Automated website scenarios with behavior-driven tests, increasing test coverage by 35% and reducing testing time by 25%.',
-    tech: ['Java', 'Selenium', 'Cucumber', 'TestNG'],
+    title: 'Student Course Management System',
+    role: 'Designer & Developer',
+    duration: 'September 2023 – November 2023',
+    description: 'Developed a student management system for efficient student record management and database operations.',
+    achievements: ['Managed 500+ student records.', 'Implemented CRUD functionality.', 'Improved data retrieval efficiency by approximately 30%.'],
+    tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
     github: 'https://github.com/omraj741',
     demo: 'https://github.com/omraj741',
   },
 ];
 
 export const experience = {
-  role: 'Virtual Internship – British Airways',
+  role: 'DevOps Engineer (Part-Time)',
+  company: 'Innovience',
+  location: 'Remote',
+  duration: 'March 2025 – July 2025',
   points: [
-    'Performed data analysis using Python for practical business scenarios.',
-    'Executed data cleaning and visualization workflows to improve data quality.',
-    'Extracted and presented insights from datasets to support decision-making.',
+    'Built, deployed, and maintained the company website using React, Node.js, and Tailwind CSS.',
+    'Supported 100+ users while maintaining 99% uptime.',
+    'Improved deployment workflows and resolved technical issues.',
+    'Reduced website downtime by 30%.',
+    'Improved page load performance by 20%.',
   ],
+  technologies: ['React', 'Node.js', 'Tailwind CSS'],
 };
 
 export const education = [
-  {
-    program: 'B.Tech CSE',
-    school: 'KL University',
-    score: 'CGPA: 8.9',
-  },
-  {
-    program: 'Diploma CSE',
-    school: 'Galgotias University',
-    score: 'CGPA: 8.4',
-  },
+  { program: 'Bachelor of Technology in Computer Science and Engineering', school: 'KL University', duration: 'August 2023 – May 2026', score: 'CGPA: 8.9' },
+  { program: 'Diploma in Computer Science and Engineering', school: 'Galgotias University', duration: 'August 2020 – May 2023', score: 'CGPA: 8.4' },
 ];
 
-export const leadership = {
-  title: 'Social Media Team Lead – Startup Society',
-  points: ['Managed content strategy and team coordination.', 'Improved audience engagement through consistent campaigns.'],
+export const achievements = {
+  title: 'All India Hackathon Organizer',
+  points: [
+    'Organized an All India Hackathon with more than 100 participants.',
+    'Coordinated participants from 20+ colleges.',
+    'Managed registrations, logistics, and judging activities.',
+  ],
 };
 
-export const certifications = ['Full Stack Development – Wipro Talent Next', 'Software Programmer – PMKVY'];
+export const leadership = {
+  title: 'Social Media Team Lead',
+  organization: 'Startup Society (College Club)',
+  responsibilities: ['Led a team of 5 members.', 'Managed content strategy and digital campaigns.', 'Coordinated social media promotions for startup and college events.'],
+  achievements: ['Increased event visibility by 30%.', 'Successfully promoted 10+ startup and college events.'],
+};
+
+export const certifications = ['NSDC PMKVY 4.0 – Software Programmer', 'Salesforce Certified AI Associate', 'Wipro TalentNext Java Full Stack Certification'];
+
+export const contact = {
+  name: 'Om Raj',
+  email: 'rajom741@gmail.com',
+  phone: '+91 8873994918',
+  location: 'Mughalsarai, Uttar Pradesh, India',
+};
 
 export const contactLinks = [
+  { label: 'Portfolio', href: '#home', icon: '🌐' },
   { label: 'GitHub', href: 'https://github.com/omraj741', icon: '🐙' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/om-raj-01b63b227/', icon: '💼' },
   { label: 'LeetCode', href: 'https://leetcode.com/om-raj', icon: '🧠' },
