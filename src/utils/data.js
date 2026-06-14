@@ -131,5 +131,5 @@ export const contactLinks = [
   { label: 'Portfolio', href: '#home', icon: '🌐' },
   { label: 'GitHub', href: 'https://github.com/omraj741', icon: '🐙' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/om-raj-01b63b227/', icon: '💼' },
-  { label: 'LeetCode', href: 'https://leetcode.com/om-raj', icon: '🧠' },
+  // { label: 'LeetCode', href: 'https://leetcode.com/om-raj', icon: '🧠' },
 ];
