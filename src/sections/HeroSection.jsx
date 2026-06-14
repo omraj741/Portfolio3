@@ -28,7 +28,7 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 45 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.85, ease: 'easeOut' }}
-        className="relative z-10 grid w-full max-w-7xl items-center gap-10 lg:grid-cols-[minmax(0,1fr)_42%] lg:gap-14"
+        className="relative z-10 grid w-full max-w-7xl items-center gap-10 lg:grid-cols-[minmax(0,1fr)_40%] lg:gap-24 xl:gap-32"
       >
         <div className="order-2 lg:order-1">
           <p className="mb-5 text-xs font-semibold uppercase tracking-[0.55em] text-white/75">Portfolio · 2026</p>
