@@ -1,9 +1,13 @@
 export const navItems = [
+  { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'projects', label: 'Projects' },
-  { id: 'experience', label: 'Experience' },
   { id: 'skills', label: 'Skills' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'education', label: 'Education' },
+  { id: 'projects', label: 'Projects' },
   { id: 'certifications', label: 'Certifications' },
+  { id: 'achievements', label: 'Achievements' },
+  { id: 'leadership', label: 'Leadership' },
   { id: 'contact', label: 'Contact' },
 ];
 
@@ -123,7 +127,7 @@ export const contact = {
 };
 
 export const contactLinks = [
-  { label: 'Portfolio', href: '#hero', icon: '🌐' },
+  { label: 'Portfolio', href: '#home', icon: '🌐' },
   { label: 'GitHub', href: 'https://github.com/omraj741', icon: '🐙' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/om-raj-01b63b227/', icon: '💼' },
   { label: 'LeetCode', href: 'https://leetcode.com/om-raj', icon: '🧠' },

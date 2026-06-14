@@ -26,7 +26,7 @@ const ProjectsSection = () => (
                   <h3 className="text-xl font-black uppercase tracking-tight text-white">{project.title}</h3>
                 </div>
               </div>
-              <a href={project.demo ?? project.github} target="_blank" rel="noreferrer" className="shrink-0 rounded-full border border-white/35 px-4 py-2 text-[0.62rem] font-black uppercase tracking-widest text-white transition hover:bg-lime-300 hover:text-black">
+              <a href={project.demo ?? project.github} target="_blank" rel="noreferrer" className="shrink-0 rounded-full border border-white/35 px-4 py-2 text-[0.62rem] font-black uppercase tracking-widest text-white transition hover:bg-white hover:text-black">
                 Live Project
               </a>
             </div>
@@ -34,19 +34,19 @@ const ProjectsSection = () => (
             <div className="project-preview relative min-h-64 overflow-hidden rounded-[1.6rem] border border-white/15 p-5">
               <div className="absolute inset-0 transition duration-500 group-hover:scale-105" />
               <div className="relative grid h-full gap-4 md:grid-cols-2">
-                <div className="rounded-[1.35rem] bg-[var(--paper)] p-6 text-black shadow-2xl">
-                  <p className="text-xs font-black uppercase tracking-[0.3em] text-black/45">Case Study</p>
+                <div className="rounded-[1.35rem] bg-white/[0.04] p-6 text-white shadow-2xl">
+                  <p className="text-xs font-black uppercase tracking-[0.3em] text-white/45">Case Study</p>
                   <h4 className="mt-5 text-3xl font-black leading-none tracking-tight">{project.title}</h4>
-                  <p className="mt-3 text-xs font-black uppercase tracking-[0.22em] text-black/55">{project.role} · {project.duration}</p>
-                  <p className="mt-4 text-sm leading-6 text-black/65">{project.description}</p>
-                  <ul className="mt-4 space-y-1 text-xs leading-5 text-black/65">
+                  <p className="mt-3 text-xs font-black uppercase tracking-[0.22em] text-white/55">{project.role} · {project.duration}</p>
+                  <p className="mt-4 text-sm leading-6 text-zinc-300">{project.description}</p>
+                  <ul className="mt-4 space-y-1 text-xs leading-5 text-zinc-300">
                     {project.achievements.slice(0, 3).map((achievement) => <li key={achievement}>• {achievement}</li>)}
                   </ul>
                 </div>
                 <div className="rounded-[1.35rem] bg-black/75 p-6 text-white shadow-2xl">
-                  <p className="text-xs font-black uppercase tracking-[0.3em] text-lime-200">Stack</p>
+                  <p className="text-xs font-black uppercase tracking-[0.3em] text-white">Stack</p>
                   <div className="mt-6 flex flex-wrap gap-2">
-                    {project.tech.map((tech) => <span key={tech} className="rounded-full bg-lime-300 px-3 py-1 text-xs font-black text-black">{tech}</span>)}
+                    {project.tech.map((tech) => <span key={tech} className="rounded-full bg-white px-3 py-1 text-xs font-black text-black">{tech}</span>)}
                   </div>
                   <a href={project.github} target="_blank" rel="noreferrer" className="premium-button mt-8 px-4 py-3">GitHub</a>
                 </div>

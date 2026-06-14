@@ -12,7 +12,7 @@ const AboutSection = () => (
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
     >
-      <div className="absolute right-0 top-0 h-44 w-44 rounded-full bg-lime-300/10 blur-3xl" />
+      <div className="absolute right-0 top-0 h-44 w-44 rounded-full bg-white/10 blur-3xl" />
       <div className="relative max-w-4xl space-y-5 text-lg leading-9 text-zinc-300">
         {aboutSummary.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>

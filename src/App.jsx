@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <>
-      <div ref={glowRef} className="pointer-events-none fixed left-0 top-0 z-0 h-[360px] w-[360px] rounded-full bg-lime-300/10 blur-3xl" />
+      <div ref={glowRef} className="pointer-events-none fixed left-0 top-0 z-0 h-[360px] w-[360px] rounded-full bg-white/10 blur-3xl" />
       <Navbar active={activeSection} />
       <main className="relative z-10 text-white">
         <HeroSection />

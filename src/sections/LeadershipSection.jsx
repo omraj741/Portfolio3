@@ -14,13 +14,13 @@ const LeadershipSection = () => (
     >
       <h3 className="text-xl font-semibold text-white">{leadership.title}</h3>
       <p className="mt-1 text-slate-300">{leadership.organization}</p>
-      <p className="mt-5 text-xs font-bold uppercase tracking-[0.3em] text-lime-200">Responsibilities</p>
+      <p className="mt-5 text-xs font-bold uppercase tracking-[0.3em] text-white">Responsibilities</p>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
         {leadership.responsibilities.map((point) => (
           <li key={point}>{point}</li>
         ))}
       </ul>
-      <p className="mt-5 text-xs font-bold uppercase tracking-[0.3em] text-lime-200">Achievements</p>
+      <p className="mt-5 text-xs font-bold uppercase tracking-[0.3em] text-white">Achievements</p>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-slate-300">
         {leadership.achievements.map((point) => (
           <li key={point}>{point}</li>
