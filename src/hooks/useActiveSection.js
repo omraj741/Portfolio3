@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { navItems } from '../utils/data';
 
 export const useActiveSection = () => {
-  const [active, setActive] = useState('hero');
+  const [active, setActive] = useState('home');
 
   useEffect(() => {
     const observer = new IntersectionObserver(
