@@ -13,7 +13,7 @@ export const navItems = [
 
 export const hero = {
   name: 'OM RAJ',
-  title: 'DevOps Engineering Student',
+  title: 'DevOps Engineering',
   subtitle: 'B.Tech Computer Science Engineering Student | Full-Stack Developer | DevOps Enthusiast ',
   description:
     'Passionate Computer Science Engineering student with expertise in Java, Python, C, Data Structures & Algorithms, Full-Stack Development and CI/CD practices. Experienced in building scalable web applications, automation solutions, and database-driven systems through internships and academic projects.',
