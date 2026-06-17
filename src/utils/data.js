@@ -13,11 +13,11 @@ export const navItems = [
 
 export const hero = {
   name: 'OM RAJ',
-  title: 'DevOps Engineering Student',
-  subtitle: 'B.Tech Computer Science Engineering Student | Full-Stack Developer | DevOps Enthusiast | AWS Cloud Learner',
+  title: 'DevOps Engineering',
+  subtitle: 'B.Tech Computer Science Engineering Student | Full-Stack Developer | DevOps Enthusiast ',
   description:
-    'Passionate Computer Science Engineering student with expertise in Java, Python, C, Data Structures & Algorithms, Full-Stack Development, AWS Cloud Technologies, and CI/CD practices. Experienced in building scalable web applications, automation solutions, and database-driven systems through internships and academic projects.',
-  image: '/images/om-raj-profile.svg',
+    'Passionate Computer Science Engineering student with expertise in Java, Python, C, Data Structures & Algorithms, Full-Stack Development and CI/CD practices. Experienced in building scalable web applications, automation solutions, and database-driven systems through internships and academic projects.',
+  image: '/images/IMG_0322.PNG',
 };
 
 export const aboutSummary = [
@@ -40,6 +40,21 @@ export const categorizedSkills = [
 
 export const projects = [
   {
+    title: 'AI Powered Testing',
+    role: 'Designer & Developer',
+    duration: 'Working on it',
+    description: 'Building an AI-powered testing platform with self-healing automation and CI/CD integration to improve software quality and testing efficiency.',
+    achievements: [
+      'Developed AI-based self-healing test automation.',
+      'Integrated automated testing with CI/CD pipelines.',
+      'Reduced test maintenance and manual effort.',
+      'Improved test reliability and defect detection.'
+    ],
+    tech: ['React', 'Node.js', 'Tailwind CSS', 'AI Agent', 'SuperBase', 'Selenium'],
+    github: 'https://github.com/omraj741/Finalyearproject',
+    demo: '',
+  },
+  {
     title: 'Behavior-Driven Testing of an Economic Website',
     role: 'Tester',
     duration: 'February 2025 – April 2025',
@@ -52,8 +67,8 @@ export const projects = [
       'Reduced regression testing time by 25%.',
     ],
     tech: ['Java', 'Selenium', 'Cucumber'],
-    github: 'https://github.com/omraj741',
-    demo: 'https://github.com/omraj741',
+    github: 'https://github.com/omraj741/Cucumber-Software-Testing',
+    demo: '',
   },
   {
     title: 'Internship Management System',
@@ -67,8 +82,8 @@ export const projects = [
       'Enabled performance evaluation workflows.',
     ],
     tech: ['Java', 'React', 'JavaScript', 'MySQL', 'Spring Boot'],
-    github: 'https://github.com/omraj741',
-    demo: 'https://github.com/omraj741',
+    github: 'https://github.com/omraj741/Admin',
+    demo: '',
   },
   {
     title: 'Student Course Management System',
@@ -77,8 +92,8 @@ export const projects = [
     description: 'Developed a student management system for efficient student record management and database operations.',
     achievements: ['Managed 500+ student records.', 'Implemented CRUD functionality.', 'Improved data retrieval efficiency by approximately 30%.'],
     tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
-    github: 'https://github.com/omraj741',
-    demo: 'https://github.com/omraj741',
+    github: 'https://github.com/omraj741/project',
+    demo: '',
   },
 ];
 
@@ -122,7 +137,7 @@ export const certifications = ['NSDC PMKVY 4.0 – Software Programmer', 'Salesf
 
 export const contact = {
   name: 'Om Raj',
-  email: 'rajom741@gmail.com',
+  email: 'omraj210205@gmail.com',
   phone: '+91 8873994918',
   location: 'Mughalsarai, Uttar Pradesh, India',
 };
